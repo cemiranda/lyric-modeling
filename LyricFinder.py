@@ -78,31 +78,6 @@ def getArtist(res, whichSong):
 	 	string = string[found.start()+1:]
 	 	found = re.search('/', string)
 	return(string.strip())
-#def getArtist(res, whichSong):
-#	it = re.finditer('chart-row__artist', res)
-#	for match in range(0 ,whichSong):
-#		x = it.next()
-#	start = x.end()+50
-#	end = start + 150
-#	string = ''
-#	for count in range(start, end):
-#		if(res[count] != ' ' or res[count+1] != ' '):
-#			string = string + res[count]
-#	found = re.search('>', string)
-#	if(found != None):
-#	 	string = string[found.start()+1:]
-#	string = string.strip()
-#	found = re.search('</a', string)
-#	if(found != None):
-#	 	string = string[0:found.start()]
-#	found = re.search('\n', string)
-#	if(found != None):
-#	 	string = string[0:found.start()]
-	#found = re.search('/', string)
-	#while(found !=None):
-	 #	string = string[found.start()+1:]
-	 #	found = re.search('/', string)
-	#return(string.strip())
 
 # Takes the title name and converts it to part of the URL 
 def altertoURL(string):
