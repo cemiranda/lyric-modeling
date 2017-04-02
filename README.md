@@ -10,3 +10,5 @@ TopicModel.py:  creates files with the lyrics of songs found on Billboard top 10
 
 
 I would recommend downloading the LyricModel.zip file. This has the setup already configured. The files LyricFinder.py and TopicModel.py would be found in the Songs directory. You should be able to run the programs directly from that folder without difficulty.
+
+Requirements: Must have lda, gensim, stop-words and nltk installed. Use "sudo easy_install -U _____" to install packages. 
